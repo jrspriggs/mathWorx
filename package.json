@@ -14,5 +14,12 @@
     "url-loader": "^2.0.0",
     "webpack": "4.x.x",
     "webpack-dev-middleware": "3.7.x"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh=pages -d build"
   }
 }
