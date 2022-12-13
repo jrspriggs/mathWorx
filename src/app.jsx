@@ -29,7 +29,7 @@ class App extends React.Component {
     return (
       <div className="App">
       <header className="App-header">
-        MathWorx
+        MathWorx (It helps you learn to do math!)
       </header>
         Addition
         <AdditionForm onSubmit={this.onFormSubmit} />
